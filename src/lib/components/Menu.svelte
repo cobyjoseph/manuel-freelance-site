@@ -18,7 +18,7 @@
 </script>
 
 <div
-	class=" flex justify-between p-3 text-lg font-bold font-Inter shadow-md bg-white bg-opacity-50 items-center"
+	class=" flex justify-between p-3 text-lg font-bold font-Inter shadow-sm bg-white bg-opacity-50 items-center"
 >
 	<div class="">
 		<!-- <img class="w-7 sm:w-12" src="other/book-logo.svg" alt="rise tutoring logo" /> -->
