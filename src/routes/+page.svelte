@@ -2,6 +2,7 @@
 	import Clients from '$lib/components/Clients.svelte';
 	import Hero from '$lib/components/Hero.svelte';
 	import HireMe from '$lib/components/HireMe.svelte';
+	import Services from '$lib/components/Services.svelte';
 </script>
 
 <div class="flex flex-col gap-16 mt-[20vh] justify-center relative font-Inter items-center  ">
@@ -12,6 +13,7 @@
 		</div>
 	</div>
 	<HireMe />
+	<Services />
 </div>
 
 <style>
