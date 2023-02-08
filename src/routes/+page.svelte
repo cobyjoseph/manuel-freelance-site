@@ -1,29 +1,26 @@
 <script lang="ts">
 	import Clients from '$lib/components/Clients.svelte';
 	import Hero from '$lib/components/Hero.svelte';
+	import HireMe from '$lib/components/HireMe.svelte';
 </script>
 
-<div class="flex flex-col gap-16 mt-[20vh] justify-center relative  ">
+<div class="flex flex-col gap-16 mt-[20vh] justify-center relative font-Inter items-center  ">
 	<div class="dotBackground mt-[-30rem] ">
-		<div class="mt-[30rem] flex flex-col gap-16">
+		<div class="mt-[30rem] flex flex-col gap-16 ">
 			<Hero />
 			<Clients />
 		</div>
 	</div>
+	<HireMe />
 </div>
 
 <style>
-	.dotBackgroundWrapper {
-		position: relative;
-		height: 100vh;
-	}
-
 	.dotBackground {
-		background-image: radial-gradient(#f1f1f1 10%, #ffffff 0%);
+		background-image: radial-gradient(#f1f1f1 10%, hsl(0, 0%, 97.5%) 0%);
 		background-repeat: repeat;
 		background-position: cover;
 		position: relative;
-		background-size: 50px 50px;
+		background-size: 40px 40px;
 		height: 100%;
 		width: 100%;
 		z-index: -20;
