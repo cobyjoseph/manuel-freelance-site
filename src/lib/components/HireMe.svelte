@@ -1,5 +1,5 @@
 <div
-	class="flex flex-col sm:grid sm:grid-cols-2 justify-center  widthClamp shadow-xl bg-white bg-opacity-70 rounded-xl"
+	class="flex flex-col sm:grid sm:grid-cols-2 justify-center  widthClamp shadow-xl bg-white bg-opacity-70 rounded-xl max-w-[42rem]"
 >
 	<!-- LEFT COLUMM -->
 	<div class="flex flex-col sm:grid  gap-6 p-8">
@@ -20,21 +20,21 @@
 
 <style>
 	.text-med {
-		font-size: clamp(1rem, 2vw, 1.5rem);
+		font-size: clamp(1rem, 2vw, 1.3rem);
 		line-height: 1.08;
 		color: #8c8c8c;
 		font-weight: 800;
 	}
 
 	.text-big {
-		font-size: clamp(1.35rem, 3vw, 2.5rem);
+		font-size: clamp(1.35rem, 3vw, 1.9rem);
 		line-height: 1.08;
 		color: #282a30;
 		font-weight: 700;
 	}
 
 	.text-thin {
-		font-size: clamp(1.1rem, 2vw, 1.5rem);
+		font-size: clamp(1.1rem, 2vw, 1.3rem);
 		line-height: 1.08;
 		color: #8c8c8c;
 		font-weight: 300;
