@@ -5,7 +5,7 @@
 
 <div class="flex flex-col gap-16 mt-[10vh] justify-center relative  ">
 	<div class="dotBackground mt-[-50rem] ">
-		<div class="mt-[50rem]">
+		<div class="mt-[50rem] flex flex-col gap-16">
 			<Hero />
 			<Clients />
 		</div>
