@@ -18,12 +18,12 @@
 </script>
 
 <div
-	class=" flex justify-between p-3 text-lg font-bold font-Inter shadow-sm bg-white bg-opacity-50 items-center"
+	class=" flex justify-between w-full top-0 p-3 text-lg font-bold font-Inter shadow-sm bg-white bg-opacity-70 items-center fixed z-[500] blurClass"
 >
 	<div class="">
 		<!-- <img class="w-7 sm:w-12" src="other/book-logo.svg" alt="rise tutoring logo" /> -->
 
-		<div class=" ">Name here</div>
+		<div class=" ">Name</div>
 	</div>
 
 	<div class="    ">
@@ -115,4 +115,8 @@
 </div>
 
 <style>
+	.blurClass {
+		backdrop-filter: blur(8px);
+		-webkit-backdrop-filter: blur(8px);
+	}
 </style>
