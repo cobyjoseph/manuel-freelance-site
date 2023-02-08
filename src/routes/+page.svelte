@@ -5,8 +5,8 @@
 	import Services from '$lib/components/Services.svelte';
 </script>
 
-<div class="flex flex-col gap-16 mt-[20vh] justify-center relative font-Inter items-center  ">
-	<div class="dotBackground mt-[-30rem] ">
+<div class="flex flex-col gap-16 mt-[17vh] justify-center relative font-Inter items-center  ">
+	<div class="dotBackground mt-[-30rem] max-w-[69rem] ">
 		<div class="mt-[30rem] flex flex-col gap-16 ">
 			<Hero />
 			<Clients />
