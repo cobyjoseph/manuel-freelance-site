@@ -3,9 +3,9 @@
 	import Hero from '$lib/components/Hero.svelte';
 </script>
 
-<div class="flex flex-col gap-16 mt-[10vh] justify-center relative  ">
-	<div class="dotBackground mt-[-50rem] ">
-		<div class="mt-[50rem] flex flex-col gap-16">
+<div class="flex flex-col gap-16 mt-[20vh] justify-center relative  ">
+	<div class="dotBackground mt-[-30rem] ">
+		<div class="mt-[30rem] flex flex-col gap-16">
 			<Hero />
 			<Clients />
 		</div>
