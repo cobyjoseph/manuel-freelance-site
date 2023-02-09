@@ -37,7 +37,7 @@
 		font-size: clamp(1.1rem, 2vw, 1.3rem);
 		line-height: 1.08;
 		color: #8c8c8c;
-		font-weight: 300;
+		font-weight: 500;
 	}
 
 	.widthClamp {
