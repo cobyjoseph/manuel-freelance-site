@@ -1,5 +1,5 @@
 <div class="flex flex-col gap-3 ">
-	<div class="text-title flex justify-center ">
+	<div class="text-title flex justify-center px-2">
 		<span>&#128202; </span>
 		Blog Space
 	</div>
@@ -9,7 +9,7 @@
 
 <style>
 	.text-title {
-		font-size: clamp(1.5rem, 5vw, 1.9rem);
+		font-size: clamp(1.4rem, 5vw, 1.9rem);
 		line-height: 1.08;
 		color: #282a30;
 		font-weight: 700;

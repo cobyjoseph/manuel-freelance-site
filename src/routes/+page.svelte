@@ -3,6 +3,7 @@
 	import CaseStudies from '$lib/components/CaseStudies.svelte';
 	import Clients from '$lib/components/Clients.svelte';
 	import FAQ from '$lib/components/FAQ.svelte';
+	import Footer from '$lib/components/Footer.svelte';
 	import Hero from '$lib/components/Hero.svelte';
 	import HireMe from '$lib/components/HireMe.svelte';
 	import Services from '$lib/components/Services.svelte';
@@ -22,6 +23,10 @@
 	<Testimonials />
 	<BlogSpace />
 	<FAQ />
+
+	<div class="dotBackgroundDark">
+		<Footer />
+	</div>
 </div>
 
 <style>
@@ -31,6 +36,17 @@
 		background-position: cover;
 		position: relative;
 		background-size: 40px 40px;
+		height: 100%;
+		width: 100%;
+		z-index: -20;
+	}
+
+	.dotBackgroundDark {
+		background-image: radial-gradient(#3e3b3b 5%, hsl(0, 0%, 0%) 0%);
+		background-repeat: repeat;
+		background-position: cover;
+		position: relative;
+		background-size: 30px 30px;
 		height: 100%;
 		width: 100%;
 		z-index: -20;
