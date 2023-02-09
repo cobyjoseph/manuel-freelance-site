@@ -1,26 +1,28 @@
 <!-- This div groups together the title and the cards below it. If you don't group them, then the gap property set at +page.svelte level applies and seperates them -->
-<div class="flex flex-col gap-6">
+<div class="flex flex-col gap-6 ">
 	<div class="text-big flex justify-center ">
 		<span>&#128202; </span>
 		Freelance Services
 	</div>
 
+	<div class="text-thin flex justify-center">Subtitle about the freelance section, if desired.</div>
+
 	<!-- CARD CONTAINER -->
-	<div class="flex gap-4">
+	<div class="flex gap-4 text-center  ">
 		<!-- EACH CARD -->
-		<div class=" flex flex-col p-5 bg-white bg-opacity-70 shadow-lg items-center gap-3 ">
+		<div class="  flex flex-col  p-5 bg-white bg-opacity-70 shadow-lg gap-3 ">
 			ICON HERE
-			<div class="text-med">Service one</div>
+			<div class="text-med flex  ">Articles and blog posts</div>
 			<div class="text-thin">Text describing service one, blah blah blah</div>
 		</div>
-		<div class=" flex flex-col p-5 bg-white bg-opacity-70 shadow-lg items-center gap-3 ">
+		<div class=" flex flex-col p-5 bg-white bg-opacity-70 shadow-lg gap-3 ">
 			ICON HERE
-			<div class="text-med">Service one</div>
+			<div class="text-med ">Website content</div>
 			<div class="text-thin">Text describing service one, blah blah blah</div>
 		</div>
-		<div class=" flex flex-col p-5 bg-white bg-opacity-70 shadow-lg items-center gap-3">
+		<div class=" flex flex-col p-5 bg-white bg-opacity-70 shadow-lg  gap-3">
 			ICON HERE
-			<div class="text-med">Service one</div>
+			<div class="text-med ">Keyword research</div>
 			<div class="text-thin">Text describing service one, blah blah blah</div>
 		</div>
 		<!-- icon here -->
@@ -31,7 +33,7 @@
 	.text-med {
 		font-size: clamp(0.8rem, 3vw, 1.5rem);
 		line-height: 1.08;
-		color: #8c8c8c;
+		color: #282a30;
 		font-weight: 800;
 	}
 
