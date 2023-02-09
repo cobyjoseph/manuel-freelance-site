@@ -1,9 +1,12 @@
 <script lang="ts">
+	import BlogSpace from '$lib/components/BlogSpace.svelte';
 	import CaseStudies from '$lib/components/CaseStudies.svelte';
 	import Clients from '$lib/components/Clients.svelte';
+	import FAQ from '$lib/components/FAQ.svelte';
 	import Hero from '$lib/components/Hero.svelte';
 	import HireMe from '$lib/components/HireMe.svelte';
 	import Services from '$lib/components/Services.svelte';
+	import Testimonials from '$lib/components/Testimonials.svelte';
 </script>
 
 <div class="flex flex-col gap-12 mt-[17vh] justify-center relative font-Inter items-center  ">
@@ -16,6 +19,9 @@
 	<HireMe />
 	<CaseStudies />
 	<Services />
+	<Testimonials />
+	<BlogSpace />
+	<FAQ />
 </div>
 
 <style>

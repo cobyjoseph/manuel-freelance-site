@@ -1,10 +1,20 @@
+<script>
+	import { FAQStore } from '$lib/stores/FAQStore';
+
+	let FAQ;
+
+	FAQStore.subscribe((value) => {
+		FAQ = value;
+	});
+</script>
+
 <div class="flex flex-col gap-3 ">
 	<div class="text-title flex justify-center ">
 		<span>&#128202; </span>
-		Blog Space
+		Frequently Asked Questions
 	</div>
 
-	<div class="text-thin flex justify-center">Subtitle about the case studies, if desired.</div>
+	<div class="text-thin flex justify-center">Subtitle about the FAQ section, if desired.</div>
 </div>
 
 <style>

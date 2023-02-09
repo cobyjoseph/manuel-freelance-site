@@ -4,7 +4,7 @@
 		Blog Space
 	</div>
 
-	<div class="text-thin flex justify-center">Subtitle about the case studies, if desired.</div>
+	<div class="text-thin flex justify-center">Subtitle about the blog section, if desired.</div>
 </div>
 
 <style>

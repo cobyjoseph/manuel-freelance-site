@@ -1,10 +1,10 @@
 <div class="flex flex-col gap-3 ">
 	<div class="text-title flex justify-center ">
 		<span>&#128202; </span>
-		Blog Space
+		Testimonials
 	</div>
 
-	<div class="text-thin flex justify-center">Subtitle about the case studies, if desired.</div>
+	<div class="text-thin flex justify-center">Subtitle about the testimonials section, if desired.</div>
 </div>
 
 <style>

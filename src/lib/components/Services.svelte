@@ -13,7 +13,7 @@
 		<div
 			class="  flex flex-col  items-center px-5 pb-7 pt-2  bg-white bg-opacity-70 shadow-lg gap-4 "
 		>
-			<img src="icons/article.png" alt="graphic of website content" class=" -m-6 " />
+			<img src="icons/article.png" alt="graphic of website content" class=" -m-5 " />
 
 			<div class="text-med ">Articles and blog posts</div>
 			<div class="text-thin">Text describing service one, blah blah blah</div>
@@ -21,14 +21,14 @@
 		<div
 			class=" flex flex-col  items-center px-5 pb-7 pt-2  bg-white bg-opacity-70 shadow-lg gap-4 "
 		>
-			<img src="icons/website-content.png" alt="graphic of website content" class="-m-6  " />
+			<img src="icons/website-content.png" alt="graphic of website content" class="-m-5  " />
 			<div class="text-med ">Website content</div>
 			<div class="text-thin">Text describing service one, blah blah blah</div>
 		</div>
 		<div
 			class=" flex flex-col  items-center px-5 pb-7 pt-2  bg-white bg-opacity-70 shadow-lg gap-4"
 		>
-			<img src="icons/keyword-research.png" alt="graphic of website on computer" class="-m-6 " />
+			<img src="icons/keyword-research.png" alt="graphic of website on computer" class="-m-5 " />
 			<div class="text-med ">Keyword research</div>
 			<div class="text-thin">Text describing service one, blah blah blah</div>
 		</div>
