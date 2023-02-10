@@ -1,3 +1,14 @@
+<script>
+	import { storyblokEditable, StoryblokComponent } from '@storyblok/svelte';
+
+	export let blok;
+</script>
+
+<div use:storyblokEditable={blok} class="bg-green-500 py-8 mb-6 text-5xl font-bold text-center">
+	<!-- {blok.headline} -->
+	{blok}
+</div>
+
 <div class="flex flex-col gap-3 ">
 	<div class="text-title flex justify-center px-2">
 		<span>&#128202; </span>

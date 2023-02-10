@@ -12,8 +12,6 @@
 	FAQStore.subscribe((value) => {
 		FAQs = value;
 	});
-
-	console.log(FAQs);
 </script>
 
 <div class="flex flex-col gap-3 ">

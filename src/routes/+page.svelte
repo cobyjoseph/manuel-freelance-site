@@ -8,7 +8,21 @@
 	import HireMe from '$lib/components/HireMe.svelte';
 	import Services from '$lib/components/Services.svelte';
 	import Testimonials from '$lib/components/Testimonials.svelte';
+
+	import { onMount } from 'svelte';
+	import { useStoryblokBridge, StoryblokComponent } from '@storyblok/svelte';
+
+	export let data;
+
+	onMount(() => {
+		useStoryblokBridge(data.story.id, (newStory) => (data.story = newStory));
+	});
 </script>
+
+{#if data.story}
+	test that data.story is true
+	<StoryblokComponent blok={data.story.content} />
+{/if}
 
 <div class="flex flex-col gap-12 mt-[17vh] justify-center relative font-Inter items-center  ">
 	<div class="dotBackground mt-[-30rem] ">
