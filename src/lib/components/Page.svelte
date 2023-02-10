@@ -1,6 +1,8 @@
 <script>
 	import { storyblokEditable, StoryblokComponent } from '@storyblok/svelte';
 	export let blok;
+
+	console.log('blok in Page:', blok);
 </script>
 
 {#key blok}

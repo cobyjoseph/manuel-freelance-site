@@ -2,6 +2,8 @@
 	import { storyblokEditable, StoryblokComponent } from '@storyblok/svelte';
 
 	export let blok;
+
+	console.log('blok in Grid:', blok);
 </script>
 
 <div use:storyblokEditable={blok} class="bg-red-300">

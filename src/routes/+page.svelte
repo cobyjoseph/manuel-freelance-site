@@ -8,11 +8,16 @@
 	import HireMe from '$lib/components/HireMe.svelte';
 	import Services from '$lib/components/Services.svelte';
 	import Testimonials from '$lib/components/Testimonials.svelte';
+	
 
 	import { onMount } from 'svelte';
 	import { useStoryblokBridge, StoryblokComponent } from '@storyblok/svelte';
 
 	export let data;
+
+	console.log('data in +page.svelte:', data);
+
+	console.log('storyblockcomponent in +page.svelte:', StoryblokComponent);
 
 	onMount(() => {
 		useStoryblokBridge(data.story.id, (newStory) => (data.story = newStory));

@@ -34,3 +34,5 @@ export async function getStoryblokApiClient() {
 
 	return storyblokApi;
 }
+
+console.log('storyblockApi:', storyblokApi);
