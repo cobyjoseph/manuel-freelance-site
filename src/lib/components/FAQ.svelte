@@ -1,17 +1,95 @@
 <script>
 	import { FAQStore } from '$lib/stores/FAQStore';
 	import { stringify } from 'postcss';
+	import Item from './Item.svelte';
 
 	let FAQs;
-	let showFAQ = false;
+	let showFAQ1 = false;
+	let showFAQ2 = false;
+	let showFAQ3 = false;
+	let showFAQ4 = false;
+	let showFAQ5 = false;
+	let showFAQ6 = false;
+	let showFAQ7 = false;
+	let showFAQ8 = false;
 
-	function toggleFAQ() {
-		showFAQ = !showFAQ;
+	function toggleFAQ1() {
+		showFAQ1 = !showFAQ1;
 	}
 
-	FAQStore.subscribe((value) => {
-		FAQs = value;
-	});
+	function toggleFAQ2() {
+		showFAQ1 = !showFAQ1;
+	}
+
+	function toggleFAQ3() {
+		showFAQ1 = !showFAQ1;
+	}
+
+	function toggleFAQ4() {
+		showFAQ1 = !showFAQ1;
+	}
+
+	function toggleFAQ5() {
+		showFAQ1 = !showFAQ1;
+	}
+
+	function toggleFAQ6() {
+		showFAQ1 = !showFAQ1;
+	}
+
+	// FAQStore.subscribe((value) => {
+	// 	FAQs = value;
+	// });
+
+	const data = [
+		{
+			id: 1,
+			question: 'What is your work process like?',
+			iconCode: 'Jim-Collins.jpg',
+
+			answer:
+				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+		},
+		{
+			id: 2,
+			question: 'What is the average turnaround time?',
+			iconCode: '↩',
+
+			answer:
+				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+		},
+		{
+			id: 3,
+			question: 'How much do you charge?',
+			iconCode: 'U+21A9',
+			answer:
+				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+		},
+		{
+			id: 4,
+			question: 'Do you offer any discounts?',
+			iconCode: '',
+
+			answer:
+				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+		},
+		{
+			id: 5,
+			question: 'What do you need to get started?',
+			iconCode: '&#128202;',
+
+			answer:
+				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+		},
+		{
+			id: 6,
+			question: 'Do you do keyword research?',
+			iconCode: 'Maria-Freeman.jpg',
+
+			answer:
+				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+		}
+	];
 </script>
 
 <div class="flex flex-col gap-3 bg-red-300 w-full items-center ">
@@ -25,35 +103,161 @@
 	<div
 		class="outline items-center outline-green-500 p-2 flex gap-2 flex-col w-[95vw] sm:w-[80wv] lg:w-[50vw] lg:max-w-[60rem] "
 	>
-		{#each FAQs as FAQ, index (FAQ.id)}
-			<button
-				class=" w-full bg-medGray flex gap-2 max-w-[40rem]  p-2  text-left"
-				on:click={toggleFAQ}
-			>
-				<div class="pl-2">
-					{#if !showFAQ}
-						<div class="flex items-start">+</div>
-					{:else}
-						<div class="flex items-start">-</div>
-					{/if}
-				</div>
-				<!-- <div>
-				{FAQ.iconCode}
-			</div> -->
+		<button
+			class=" w-full bg-medGray flex gap-2 max-w-[40rem]  p-2  text-left"
+			on:click={toggleFAQ1}
+		>
+			<div class="pl-2">
+				{#if !showFAQ1}
+					<div class="flex items-start w-3">+</div>
+				{:else}
+					<div class="flex items-start w-3">-</div>
+				{/if}
+			</div>
+			<div>code here</div>
 
-				<div class="flex flex-col gap-2">
-					<div class="text-Q mt-auto mb-auto ">
-						{FAQ.question}
+			<div class="flex flex-col gap-2">
+				<div class="text-Q mt-auto mb-auto ">What is your work process like?</div>
+
+				{#if showFAQ1}
+					<div>
+						'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+						incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+						exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
 					</div>
+				{/if}
+			</div>
+		</button>
 
-					{#if showFAQ}
-						<div>
-							{FAQ.answer}
-						</div>
-					{/if}
-				</div>
-			</button>
-		{/each}
+		<button
+			class=" w-full bg-medGray flex gap-2 max-w-[40rem]  p-2  text-left"
+			on:click={toggleFAQ2}
+		>
+			<div class="pl-2">
+				{#if !showFAQ2}
+					<div class="flex items-start w-3">+</div>
+				{:else}
+					<div class="flex items-start w-3">-</div>
+				{/if}
+			</div>
+			<div>code here</div>
+
+			<div class="flex flex-col gap-2">
+				<div class="text-Q mt-auto mb-auto ">What is your average turnaround time?</div>
+
+				{#if showFAQ2}
+					<div>
+						'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+						incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+						exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+					</div>
+				{/if}
+			</div>
+		</button>
+
+		<button
+			class=" w-full bg-medGray flex gap-2 max-w-[40rem]  p-2  text-left"
+			on:click={toggleFAQ3}
+		>
+			<div class="pl-2">
+				{#if !showFAQ3}
+					<div class="flex items-start w-3">+</div>
+				{:else}
+					<div class="flex items-start w-3">-</div>
+				{/if}
+			</div>
+			<div>code here</div>
+
+			<div class="flex flex-col gap-2">
+				<div class="text-Q mt-auto mb-auto ">How much do you charge?</div>
+
+				{#if showFAQ3}
+					<div>
+						'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+						incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+						exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+					</div>
+				{/if}
+			</div>
+		</button>
+
+		<button
+			class=" w-full bg-medGray flex gap-2 max-w-[40rem]  p-2  text-left"
+			on:click={toggleFAQ4}
+		>
+			<div class="pl-2">
+				{#if !showFAQ4}
+					<div class="flex items-start w-3">+</div>
+				{:else}
+					<div class="flex items-start w-3">-</div>
+				{/if}
+			</div>
+			<div>code here</div>
+
+			<div class="flex flex-col gap-2">
+				<div class="text-Q mt-auto mb-auto ">Do you offer any discounts?</div>
+
+				{#if showFAQ4}
+					<div>
+						'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+						incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+						exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+					</div>
+				{/if}
+			</div>
+		</button>
+
+		<button
+			class=" w-full bg-medGray flex gap-2 max-w-[40rem]  p-2  text-left"
+			on:click={toggleFAQ5}
+		>
+			<div class="pl-2">
+				{#if !showFAQ5}
+					<div class="flex items-start w-3">+</div>
+				{:else}
+					<div class="flex items-start w-3">-</div>
+				{/if}
+			</div>
+			<div>code here</div>
+
+			<div class="flex flex-col gap-2">
+				<div class="text-Q mt-auto mb-auto ">What do you need to get started?</div>
+
+				{#if showFAQ5}
+					<div>
+						'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+						incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+						exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+					</div>
+				{/if}
+			</div>
+		</button>
+
+		<button
+			class=" w-full bg-medGray flex gap-2 max-w-[40rem]  p-2  text-left"
+			on:click={toggleFAQ6}
+		>
+			<div class="pl-2">
+				{#if !showFAQ6}
+					<div class="flex items-start w-3">+</div>
+				{:else}
+					<div class="flex items-start w-3">-</div>
+				{/if}
+			</div>
+			<div>code here</div>
+
+			<div class="flex flex-col gap-2">
+				<div class="text-Q mt-auto mb-auto ">Do you do keyword research?</div>
+
+				{#if showFAQ6}
+					<div>
+						'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+						incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+						exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+					</div>
+				{/if}
+			</div>
+		</button>
 	</div>
 </div>
 
