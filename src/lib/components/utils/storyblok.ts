@@ -11,6 +11,7 @@ import Feature from '../Feature.svelte';
 import Grid from '../Grid.svelte';
 import Teaser from '../Teaser.svelte';
 import Page from '../Page.svelte';
+import Articles from '../Articles.svelte';
 import { apiPlugin, storyblokInit, useStoryblokApi } from '@storyblok/svelte';
 
 let storyblokApi;
@@ -27,7 +28,8 @@ export async function getStoryblokApiClient() {
 			feature: Feature,
 			grid: Grid,
 			page: Page,
-			teaser: Teaser
+			teaser: Teaser,
+			articles: Articles
 		}
 	});
 	storyblokApi = await useStoryblokApi();

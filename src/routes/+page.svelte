@@ -8,7 +8,6 @@
 	import HireMe from '$lib/components/HireMe.svelte';
 	import Services from '$lib/components/Services.svelte';
 	import Testimonials from '$lib/components/Testimonials.svelte';
-	
 
 	import { onMount } from 'svelte';
 	import { useStoryblokBridge, StoryblokComponent } from '@storyblok/svelte';
@@ -25,7 +24,8 @@
 </script>
 
 {#if data.story}
-	test that data.story is true
+	<div class="text-3xl bg-red-400 ">test that data.story is true</div>
+
 	<StoryblokComponent blok={data.story.content} />
 {/if}
 

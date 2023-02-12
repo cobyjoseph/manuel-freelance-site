@@ -52,7 +52,7 @@
 	}
 
 	.text-thin {
-		font-size: clamp(0.8rem, 4vw, 1.5rem);
+		font-size: clamp(0.8rem, 4vw, 1.2rem);
 		line-height: 1.08;
 		color: #8c8c8c;
 		font-weight: 500;
