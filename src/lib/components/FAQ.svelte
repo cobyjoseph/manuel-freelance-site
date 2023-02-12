@@ -10,8 +10,6 @@
 	let showFAQ4 = false;
 	let showFAQ5 = false;
 	let showFAQ6 = false;
-	let showFAQ7 = false;
-	let showFAQ8 = false;
 
 	function toggleFAQ1() {
 		showFAQ1 = !showFAQ1;
@@ -40,56 +38,6 @@
 	// FAQStore.subscribe((value) => {
 	// 	FAQs = value;
 	// });
-
-	const data = [
-		{
-			id: 1,
-			question: 'What is your work process like?',
-			iconCode: 'Jim-Collins.jpg',
-
-			answer:
-				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
-		},
-		{
-			id: 2,
-			question: 'What is the average turnaround time?',
-			iconCode: '↩',
-
-			answer:
-				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
-		},
-		{
-			id: 3,
-			question: 'How much do you charge?',
-			iconCode: 'U+21A9',
-			answer:
-				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
-		},
-		{
-			id: 4,
-			question: 'Do you offer any discounts?',
-			iconCode: '',
-
-			answer:
-				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
-		},
-		{
-			id: 5,
-			question: 'What do you need to get started?',
-			iconCode: '&#128202;',
-
-			answer:
-				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
-		},
-		{
-			id: 6,
-			question: 'Do you do keyword research?',
-			iconCode: 'Maria-Freeman.jpg',
-
-			answer:
-				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
-		}
-	];
 </script>
 
 <div class="flex flex-col gap-3 bg-red-300 w-full items-center ">
@@ -117,7 +65,7 @@
 			<div>&#128202;</div>
 
 			<div class="flex flex-col gap-2">
-				<div class="text-Q mt-auto mb-auto ">What is your work process like?</div>
+				<div class="text-Q mt-1">What is your work process like?</div>
 
 				{#if showFAQ1}
 					<div>
@@ -143,7 +91,7 @@
 			<div>&#128202;</div>
 
 			<div class="flex flex-col gap-2">
-				<div class="text-Q mt-auto mb-auto ">What is your average turnaround time?</div>
+				<div class="text-Q mt-1 ">What is your average turnaround time?</div>
 
 				{#if showFAQ2}
 					<div>
@@ -169,7 +117,7 @@
 			<div>&#128202;</div>
 
 			<div class="flex flex-col gap-2">
-				<div class="text-Q mt-auto mb-auto ">How much do you charge?</div>
+				<div class="text-Q mt-1 ">How much do you charge?</div>
 
 				{#if showFAQ3}
 					<div>
@@ -195,7 +143,7 @@
 			<div>&#128202;</div>
 
 			<div class="flex flex-col gap-2">
-				<div class="text-Q mt-auto mb-auto ">Do you offer any discounts?</div>
+				<div class="text-Q mt-1 ">Do you offer any discounts?</div>
 
 				{#if showFAQ4}
 					<div>
@@ -221,7 +169,7 @@
 			<div>&#128202;</div>
 
 			<div class="flex flex-col gap-2">
-				<div class="text-Q mt-auto mb-auto ">What do you need to get started?</div>
+				<div class="text-Q mt-1 ">What do you need to get started?</div>
 
 				{#if showFAQ5}
 					<div>
@@ -247,7 +195,7 @@
 			<div>&#128202;</div>
 
 			<div class="flex flex-col gap-2">
-				<div class="text-Q mt-auto mb-auto ">Do you do keyword research?</div>
+				<div class="text-Q mt-1 ">Do you do keyword research?</div>
 
 				{#if showFAQ6}
 					<div>
