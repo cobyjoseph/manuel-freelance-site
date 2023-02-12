@@ -3,7 +3,7 @@
 </script>
 
 {#each entry[1] as item}
-	<div class="text-xl bg-red-500">
+	<div class="text-xl ">
 		{item.question}
 		<button
 			class=" w-full bg-medGray flex gap-2 max-w-[40rem]  p-2  text-left"

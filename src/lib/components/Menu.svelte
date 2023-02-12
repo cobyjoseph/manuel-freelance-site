@@ -32,13 +32,13 @@
 			<a
 				href={'#section2'}
 				class=" customUnderline   font-semibold"
-				on:click|preventDefault={scrollIntoView}>My services</a
+				on:click|preventDefault={scrollIntoView}>Blog</a
 			>
 
 			<a
 				href={'#section3'}
 				class=" customUnderline  font-semibold"
-				on:click|preventDefault={scrollIntoView}>About me</a
+				on:click|preventDefault={scrollIntoView}>Case studies</a
 			>
 
 			<a
@@ -91,14 +91,14 @@
 						<a
 							href={'#section2'}
 							class=" underlineMenu   font-semibold  "
-							on:click|preventDefault={scrollIntoView}>My services</a
+							on:click|preventDefault={scrollIntoView}>Blog</a
 						>
 
 						<a
 							href={'#section3'}
 							class=" underlineMenu  font-semibold"
 							on:click|preventDefault={scrollIntoView}
-							>About me
+							>Case studies
 						</a>
 
 						<a

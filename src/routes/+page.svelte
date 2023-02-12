@@ -11,6 +11,7 @@
 
 	import { onMount } from 'svelte';
 	import { useStoryblokBridge, StoryblokComponent } from '@storyblok/svelte';
+	import Teaser from '$lib/components/Teaser.svelte';
 
 	export let data;
 
@@ -25,22 +26,24 @@
 
 {#if data.story}
 	<div class="text-3xl bg-red-400 ">test that data.story is true</div>
-
 	<StoryblokComponent blok={data.story.content} />
+	<StoryblokComponent blok={data.story.content} />
+
 {/if}
 
-<div class="flex flex-col gap-12 mt-[17vh] justify-center relative font-Inter items-center  ">
+<div class="flex flex-col gap-10 mt-[17vh] justify-center relative font-Inter items-center  ">
 	<div class="dotBackground mt-[-30rem] ">
-		<div class="mt-[30rem] flex flex-col gap-16 items-center ">
+		<div class="mt-[30rem] flex flex-col gap-12 items-center ">
 			<Hero />
 			<Clients />
 		</div>
 	</div>
+	<Teaser blok={data.story.content} />
 	<HireMe />
 	<CaseStudies />
 	<Services />
 	<Testimonials />
-	<BlogSpace />
+	<BlogSpace blok={data.story.content} />
 	<FAQ />
 
 	<div class="dotBackgroundDark">

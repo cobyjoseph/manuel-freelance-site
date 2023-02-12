@@ -50,7 +50,7 @@
 	<div class="text-thin flex justify-center">Subtitle about the FAQ section, if desired.</div>
 
 	<div
-		class="items-center  p-2 flex gap-2 flex-col w-[95vw] sm:w-[80wv] lg:w-[50vw] lg:max-w-[60rem] "
+		class="items-center  p-2 flex gap-2 lg:gap-3 flex-col w-[95vw] sm:w-[80wv] lg:w-[50vw] lg:max-w-[60rem] "
 	>
 		<button
 			class=" w-full bg-medGray flex gap-2 max-w-[40rem]  p-2  text-left"
@@ -219,7 +219,7 @@
 	}
 
 	.text-Q {
-		font-size: clamp(1rem, 1.4vw, 1.8rem);
+		font-size: clamp(1rem, 1.4vw, 1.3rem);
 		line-height: 1.08;
 		color: #282a30;
 		font-weight: 600;

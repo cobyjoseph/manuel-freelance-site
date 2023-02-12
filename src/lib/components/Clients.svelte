@@ -6,5 +6,4 @@
 	<img class=" flex-1   max-w-[7vw] mx-1" src="logos/xfive.png" alt="xfive logo" />
 	<img class=" flex-1   max-w-[7vw] mx-1" src="logos/xfive.png" alt="xfive logo" />
 	<img class=" flex-1   max-w-[7vw] mx-1" src="logos/xfive.png" alt="xfive logo" />
-	<img class=" flex-1   max-w-[7vw] mx-1" src="logos/xfive.png" alt="xfive logo" />
 </div>
