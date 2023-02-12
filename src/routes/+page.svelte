@@ -9,6 +9,8 @@
 	import Testimonials from '$lib/components/Testimonials.svelte';
 
 	export let data;
+
+	console.log('data', data);
 </script>
 
 <div class="flex flex-col gap-10 mt-[17vh] justify-center relative font-Inter items-center  ">

@@ -1,7 +1,5 @@
 <script>
 	import { FAQStore } from '$lib/stores/FAQStore';
-	import { stringify } from 'postcss';
-	import Item from './Item.svelte';
 	import { slide } from 'svelte/transition';
 
 	let FAQs;
