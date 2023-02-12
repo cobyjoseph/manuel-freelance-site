@@ -18,23 +18,23 @@
 	}
 
 	function toggleFAQ2() {
-		showFAQ1 = !showFAQ1;
+		showFAQ2 = !showFAQ2;
 	}
 
 	function toggleFAQ3() {
-		showFAQ1 = !showFAQ1;
+		showFAQ3 = !showFAQ3;
 	}
 
 	function toggleFAQ4() {
-		showFAQ1 = !showFAQ1;
+		showFAQ4 = !showFAQ4;
 	}
 
 	function toggleFAQ5() {
-		showFAQ1 = !showFAQ1;
+		showFAQ5 = !showFAQ5;
 	}
 
 	function toggleFAQ6() {
-		showFAQ1 = !showFAQ1;
+		showFAQ6 = !showFAQ6;
 	}
 
 	// FAQStore.subscribe((value) => {
@@ -114,7 +114,7 @@
 					<div class="flex items-start w-3">-</div>
 				{/if}
 			</div>
-			<div>code here</div>
+			<div>&#128202;</div>
 
 			<div class="flex flex-col gap-2">
 				<div class="text-Q mt-auto mb-auto ">What is your work process like?</div>
@@ -140,7 +140,7 @@
 					<div class="flex items-start w-3">-</div>
 				{/if}
 			</div>
-			<div>code here</div>
+			<div>&#128202;</div>
 
 			<div class="flex flex-col gap-2">
 				<div class="text-Q mt-auto mb-auto ">What is your average turnaround time?</div>
@@ -166,7 +166,7 @@
 					<div class="flex items-start w-3">-</div>
 				{/if}
 			</div>
-			<div>code here</div>
+			<div>&#128202;</div>
 
 			<div class="flex flex-col gap-2">
 				<div class="text-Q mt-auto mb-auto ">How much do you charge?</div>
@@ -192,7 +192,7 @@
 					<div class="flex items-start w-3">-</div>
 				{/if}
 			</div>
-			<div>code here</div>
+			<div>&#128202;</div>
 
 			<div class="flex flex-col gap-2">
 				<div class="text-Q mt-auto mb-auto ">Do you offer any discounts?</div>
@@ -218,7 +218,7 @@
 					<div class="flex items-start w-3">-</div>
 				{/if}
 			</div>
-			<div>code here</div>
+			<div>&#128202;</div>
 
 			<div class="flex flex-col gap-2">
 				<div class="text-Q mt-auto mb-auto ">What do you need to get started?</div>
@@ -244,7 +244,7 @@
 					<div class="flex items-start w-3">-</div>
 				{/if}
 			</div>
-			<div>code here</div>
+			<div>&#128202;</div>
 
 			<div class="flex flex-col gap-2">
 				<div class="text-Q mt-auto mb-auto ">Do you do keyword research?</div>
