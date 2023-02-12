@@ -41,7 +41,7 @@
 	// });
 </script>
 
-<div class="flex flex-col gap-3 bg-red-300 w-full items-center ">
+<div class="flex flex-col gap-3 w-full items-center ">
 	<div class="text-title flex justify-center px-2 ">
 		<span>&#128202; </span>
 		Frequently Asked Questions
@@ -50,12 +50,11 @@
 	<div class="text-thin flex justify-center">Subtitle about the FAQ section, if desired.</div>
 
 	<div
-		class="outline items-center outline-green-500 p-2 flex gap-2 flex-col w-[95vw] sm:w-[80wv] lg:w-[50vw] lg:max-w-[60rem] "
+		class="items-center  p-2 flex gap-2 flex-col w-[95vw] sm:w-[80wv] lg:w-[50vw] lg:max-w-[60rem] "
 	>
 		<button
 			class=" w-full bg-medGray flex gap-2 max-w-[40rem]  p-2  text-left"
 			on:click={toggleFAQ1}
-			transition:slide={{ duration: 200 }}
 		>
 			<div class="pl-2">
 				{#if !showFAQ1}
@@ -70,7 +69,7 @@
 				<div class="text-Q mt-1">What is your work process like?</div>
 
 				{#if showFAQ1}
-					<div>
+					<div transition:slide={{ duration: 200 }}>
 						'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
 						incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
 						exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
@@ -82,7 +81,6 @@
 		<button
 			class=" w-full bg-medGray flex gap-2 max-w-[40rem]  p-2  text-left"
 			on:click={toggleFAQ2}
-			transition:slide={{ duration: 200 }}
 		>
 			<div class="pl-2">
 				{#if !showFAQ2}
@@ -97,7 +95,7 @@
 				<div class="text-Q mt-1 ">What is your average turnaround time?</div>
 
 				{#if showFAQ2}
-					<div>
+					<div transition:slide={{ duration: 200 }}>
 						'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
 						incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
 						exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
@@ -109,7 +107,6 @@
 		<button
 			class=" w-full bg-medGray flex gap-2 max-w-[40rem]  p-2  text-left"
 			on:click={toggleFAQ3}
-			transition:slide={{ duration: 200 }}
 		>
 			<div class="pl-2">
 				{#if !showFAQ3}
@@ -124,7 +121,7 @@
 				<div class="text-Q mt-1 ">How much do you charge?</div>
 
 				{#if showFAQ3}
-					<div>
+					<div transition:slide={{ duration: 200 }}>
 						'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
 						incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
 						exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
@@ -136,7 +133,6 @@
 		<button
 			class=" w-full bg-medGray flex gap-2 max-w-[40rem]  p-2  text-left"
 			on:click={toggleFAQ4}
-			transition:slide={{ duration: 200 }}
 		>
 			<div class="pl-2">
 				{#if !showFAQ4}
@@ -151,7 +147,7 @@
 				<div class="text-Q mt-1 ">Do you offer any discounts?</div>
 
 				{#if showFAQ4}
-					<div>
+					<div transition:slide={{ duration: 200 }}>
 						'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
 						incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
 						exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
@@ -163,7 +159,6 @@
 		<button
 			class=" w-full bg-medGray flex gap-2 max-w-[40rem]  p-2  text-left"
 			on:click={toggleFAQ5}
-			transition:slide={{ duration: 200 }}
 		>
 			<div class="pl-2">
 				{#if !showFAQ5}
@@ -178,7 +173,7 @@
 				<div class="text-Q mt-1 ">What do you need to get started?</div>
 
 				{#if showFAQ5}
-					<div>
+					<div transition:slide={{ duration: 200 }}>
 						'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
 						incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
 						exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
@@ -190,7 +185,6 @@
 		<button
 			class=" w-full bg-medGray flex gap-2 max-w-[40rem]  p-2  text-left"
 			on:click={toggleFAQ6}
-			transition:slide={{ duration: 200 }}
 		>
 			<div class="pl-2">
 				{#if !showFAQ6}
@@ -205,7 +199,7 @@
 				<div class="text-Q mt-1 ">Do you do keyword research?</div>
 
 				{#if showFAQ6}
-					<div>
+					<div transition:slide={{ duration: 200 }}>
 						'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
 						incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
 						exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
