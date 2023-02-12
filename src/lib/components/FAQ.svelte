@@ -2,6 +2,7 @@
 	import { FAQStore } from '$lib/stores/FAQStore';
 	import { stringify } from 'postcss';
 	import Item from './Item.svelte';
+	import { slide } from 'svelte/transition';
 
 	let FAQs;
 	let showFAQ1 = false;
@@ -54,6 +55,7 @@
 		<button
 			class=" w-full bg-medGray flex gap-2 max-w-[40rem]  p-2  text-left"
 			on:click={toggleFAQ1}
+			transition:slide={{ duration: 200 }}
 		>
 			<div class="pl-2">
 				{#if !showFAQ1}
@@ -80,6 +82,7 @@
 		<button
 			class=" w-full bg-medGray flex gap-2 max-w-[40rem]  p-2  text-left"
 			on:click={toggleFAQ2}
+			transition:slide={{ duration: 200 }}
 		>
 			<div class="pl-2">
 				{#if !showFAQ2}
@@ -106,6 +109,7 @@
 		<button
 			class=" w-full bg-medGray flex gap-2 max-w-[40rem]  p-2  text-left"
 			on:click={toggleFAQ3}
+			transition:slide={{ duration: 200 }}
 		>
 			<div class="pl-2">
 				{#if !showFAQ3}
@@ -132,6 +136,7 @@
 		<button
 			class=" w-full bg-medGray flex gap-2 max-w-[40rem]  p-2  text-left"
 			on:click={toggleFAQ4}
+			transition:slide={{ duration: 200 }}
 		>
 			<div class="pl-2">
 				{#if !showFAQ4}
@@ -158,6 +163,7 @@
 		<button
 			class=" w-full bg-medGray flex gap-2 max-w-[40rem]  p-2  text-left"
 			on:click={toggleFAQ5}
+			transition:slide={{ duration: 200 }}
 		>
 			<div class="pl-2">
 				{#if !showFAQ5}
@@ -184,6 +190,7 @@
 		<button
 			class=" w-full bg-medGray flex gap-2 max-w-[40rem]  p-2  text-left"
 			on:click={toggleFAQ6}
+			transition:slide={{ duration: 200 }}
 		>
 			<div class="pl-2">
 				{#if !showFAQ6}
