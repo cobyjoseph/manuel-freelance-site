@@ -11,7 +11,6 @@ export const load = ({ locals, params }) => {
 	const getBlog = async (blogId) => {
 		const blog = serializeNonPOJOs(await pb.collection('blogs').getFullList());
 
-		// console.log('getblog', getBlog);
 		return blog;
 	};
 	return {

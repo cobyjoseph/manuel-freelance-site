@@ -1,4 +1,5 @@
 <script lang="ts">
+	import BlogSpace from '$lib/components/BlogSpace.svelte';
 	import CaseStudies from '$lib/components/CaseStudies.svelte';
 	import Clients from '$lib/components/Clients.svelte';
 	import FAQ from '$lib/components/FAQ.svelte';
@@ -22,10 +23,10 @@
 	</div>
 
 	<HireMe />
-	<CaseStudies />
+	<!-- <CaseStudies /> -->
 	<Services />
 	<Testimonials />
-
+	<BlogSpace blogArticles={data.blogs} />
 	<FAQ />
 
 	<div class="dotBackgroundDark">
