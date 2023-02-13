@@ -8,7 +8,7 @@
 			<div class="text-veryBig">I'd love to hear from you.</div>
 		</div>
 		<button
-			class="flex justify-center bg-lightGray text-black font-bold text-lg px-6 py-3 shadow rounded-full"
+			class="flex justify-center bg-lightGray text-black font-bold text-lg px-6 py-3 shadow rounded-full hover:bg-slate-800 hover:text-white"
 			><span class="pr-1">&#128075; </span>Book a call</button
 		>
 	</div>

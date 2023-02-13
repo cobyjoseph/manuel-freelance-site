@@ -37,11 +37,11 @@
 	<!-- this is the wrapper for the two buttons, to put them side by side -->
 	<div class="flex gap-10 flex-wrap justify-center ">
 		<button
-			class="flex justify-center bg-black text-white font-bold text-lg px-6 py-3 shadow-xl rounded-full"
+			class="flex justify-center bg-black text-white font-bold text-lg px-6 py-3 shadow-xl rounded-full hover:bg-white hover:text-slate-700"
 			>Book a call</button
 		>
 		<button
-			class="flex justify-center bg-lightGray text-darkGray  font-bold text-lg px-6 py-3 shadow rounded-full"
+			class="flex justify-center bg-lightGray text-darkGray  font-bold text-lg px-6 py-3 shadow rounded-full hover:bg-black hover:text-white"
 			>View work -></button
 		>
 	</div>

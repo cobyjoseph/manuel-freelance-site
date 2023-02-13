@@ -31,19 +31,19 @@
 		<div class="hidden gap-14 lg:flex ">
 			<a
 				href={'#section2'}
-				class=" customUnderline   font-semibold"
+				class=" customUnderline   font-semibold hover:text-indigo-700"
 				on:click|preventDefault={scrollIntoView}>Blog</a
 			>
 
 			<a
 				href={'#section3'}
-				class=" customUnderline  font-semibold"
+				class=" customUnderline  font-semibold hover:text-indigo-700"
 				on:click|preventDefault={scrollIntoView}>Case studies</a
 			>
 
 			<a
 				href={'#section4'}
-				class=" customUnderline  font-semibold"
+				class=" customUnderline  font-semibold hover:text-indigo-700"
 				on:click|preventDefault={scrollIntoView}>Contact</a
 			>
 		</div>
@@ -90,20 +90,20 @@
 					>
 						<a
 							href={'#section2'}
-							class=" underlineMenu   font-semibold  "
+							class=" underlineMenu   font-semibold hover:text-indigo-700  "
 							on:click|preventDefault={scrollIntoView}>Blog</a
 						>
 
 						<a
 							href={'#section3'}
-							class=" underlineMenu  font-semibold"
+							class=" underlineMenu  font-semibold hover:text-indigo-700"
 							on:click|preventDefault={scrollIntoView}
 							>Case studies
 						</a>
 
 						<a
 							href={'#section4'}
-							class=" underlineMenu  font-semibold"
+							class=" underlineMenu  font-semibold hover:text-indigo-700"
 							on:click|preventDefault={scrollIntoView}
 							>Contact
 						</a>
